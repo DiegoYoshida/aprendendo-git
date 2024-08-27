@@ -1,0 +1,12 @@
+Olá, meu nome é Diego e estou aprendendo GIT.
+
+commits - versões do código
+untracked - não há arquivos no controle de versão.
+
+
+GIT STATUS verifica o status do arquivo
+
+INCLUIR ARQUIVO:
+- git add "nome do arquivo"
+
+E se houver mais arquivos?
