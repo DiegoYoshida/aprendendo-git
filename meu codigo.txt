@@ -3,10 +3,34 @@ Olá, meu nome é Diego e estou aprendendo GIT.
 commits - versões do código
 untracked - não há arquivos no controle de versão.
 
+COMO CONFIGURAR O GIT?
+-git config --global usar.email "you@example.com"
+-git config --global usar.name "Your name"
 
-GIT STATUS verifica o status do arquivo
 
-INCLUIR ARQUIVO:
+***GIT STATUS verifica o status do arquivo***
+
+***INCLUIR ARQUIVO:***
 - git add "nome do arquivo"
 
 E se houver mais arquivos?
+- git add .
+
+***COMO CRIAR VERSÕES DO CÓDIGO COM COMMIT?
+
+- git commit -m "commit inicial"
+
+m = mensagem para descrever o que foi feito de alteração no código.
+
+***COMO ENVIAR ALTERAÇÕES USANDO GIT PUSH***
+- git push 
+obs: enviar o código para nuvem no GitHub
+
+-git remote add origin COLOCAR O LINK DO REPOSITORIO GITHUB
+
+-git push --set-upstream origin master 
+obs: branch master
+
+
+***CICLO DE ATUALIZAÇÃO DE CÓDIGO***
+
