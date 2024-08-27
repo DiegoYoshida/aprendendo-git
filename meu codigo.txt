@@ -85,4 +85,4 @@ Ir para a branch de destino
 -git checkout master
 ------------------------------
 Puxar as informações da outra branch
--git merge staging
+-git merge staging bra
