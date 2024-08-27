@@ -47,6 +47,31 @@ git reflog
 
 git reset --hard ID
 
-***
+***O QUE SÃO BRANCHES E COMO CRIAR UMA?***
 
+Branch = Galho
 
+São caminhos diferentes que você vai seguir durante o desenvolvimento.
+
+Cada branch um local para armazenar seu desenvolvimento.
+
+Branch A, B, C etc...
+
+Exemplo: 
+Branch A é a master, ou seja, uma branch estável. Só código que funciona.
+Branch B e C, realizações de códigos 'teste' para depois ser adicionado para a branch principal.
+
+-git branch
+obs: Ver quais branches estão disponíveis no momento.
+
+Para criar uma branch
+- git branch NOME
+obs: staging é o nome que você da para um branch que está recebendo atualizações que não foram testadas.
+
+BRANCH COM * E VERDE significa que estamos trabalho nela no momento.
+
+Para mudar de branch:
+- git checkout staging
+
+Para fazer um commit na nova branch
+- git push --set-upstream origin NOME DA BRANCHE
