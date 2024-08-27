@@ -47,6 +47,18 @@ git reflog
 
 git reset --hard ID
 
-***
+***O QUE SÃO BRANCHES E COMO CRIAR UMA?***
+
+Branch = Galho
+
+São caminhos diferentes que você vai seguir durante o desenvolvimento.
+
+Cada branch um local para armazenar seu desenvolvimento.
+
+Branch A, B, C etc...
+
+Exemplo: 
+Branch A é a master, ou seja, uma branch estável. Só código que funciona.
+Branch B e C, realizações de códigos 'teste' para depois ser adicionado para a branch principal.
 
 
