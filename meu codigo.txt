@@ -72,3 +72,17 @@ BRANCH COM * E VERDE significa que estamos trabalho nela no momento.
 
 Para mudar de branch:
 - git checkout staging
+
+Para fazer um commit na nova branch
+- git push --set-upstream origin NOME DA BRANCHE
+
+Como trazer as att para a branch principal
+- MERGE
+
+***GIT MERGE COMO UNIR O CÓDIGO***
+PASSOS:
+Ir para a branch de destino 
+-git checkout master
+------------------------------
+Puxar as informações da outra branch
+-git merge staging
