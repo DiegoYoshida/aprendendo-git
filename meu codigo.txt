@@ -102,3 +102,6 @@ PASSOS DO MERGE:
 7- MERGIAR (UNIR) O CÓDIGO DA BRANCH TEMPORÁRIA COM A BRANCH PRINCIPAL (DEPOIS DE TESTAR)
 8- GIT PUSH DA BRANCH PRINCIPAL
 
+--------------
+Adicionando nova funcionalidade na branch principal
+git checkout -b nome-da-branch master
