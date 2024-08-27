@@ -33,4 +33,20 @@ obs: branch master
 
 
 ***CICLO DE ATUALIZAÇÃO DE CÓDIGO***
+Passos:
+git add .
+git status 
+git commit -m ""
+git push
+
+
+***COMO VERIFICAR HISTÓRICO DE VERSÕES***
+git reflog
+
+***COMO NAVEGAR ENTRE AS VERSÕES DO CÓDIGO***
+
+git reset --hard ID
+
+***
+
 
