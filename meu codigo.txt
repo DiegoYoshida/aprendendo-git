@@ -105,3 +105,30 @@ PASSOS DO MERGE:
 --------------
 Adicionando nova funcionalidade na branch principal
 git checkout -b nome-da-branch master
+<<<<<<< HEAD
+=======
+
+
+***PULL REQUEST DE UM MERGE DEMOCRÁTICO***
+
+Fazer a atualização do código e fazer o PUSH para a nuvem.
+
+git push
+
+
+git push --set-upstream origin NOME DA BRANCHE
+
+Após isso entrar no site do GITHUB e selecionar COMPARE E PUL REQUEST selecionar da onde quer mergear para a branche de destino (ex: branch master), logo após isso, irá criar uma tela para você descrever o que foi feito para que outra pessoa possa verificar e se vai aceitar ou não.
+
+*** GIT IGNORE ***
+
+Serve para que um arquivo não suba para o controle de versão.
+Ex: Uma pasta com senhas.
+
+E para fazer isso basta digitar esse comando:
+touch .gitignore
+Após fazer isso será criado uma pasta chamado gitignore no seu projeto, abra-o com o notepad e escreva o novo do arquivo que você não quer que seja adicionado ao controle de versão, ex: segredos/ e salve o arquivo.
+
+/ = para pastas que você não quer que seja adicionado, caso for um arquivo comum basta digitar o nome dele.
+
+>>>>>>> sistema-de-login
